@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Iphone",
+    "description": "some description",
+    "params": {
+      "price": 10,
+      "cpu": "Bionic"
+    }
+  },
+  {
+    "name": "Samsung",
+    "description": "some description",
+    "params": {
+      "price": 11,
+      "cpu": "Bionic"
+    }
+  },
+  {
+    "name": "Redmi",
+    "description": "some description",
+    "params": {
+      "price": 15,
+      "cpu": "MediaTek Helio G80"
+    }
+  },
+  {
+    "name": "HTC",
+    "description": "some description",
+    "params": {
+      "price": 54,
+      "cpu": "Bionic"
+    }
+  },
+  {
+    "name": "Nokia",
+    "description": "some description",
+    "params": {
+      "price": 35,
+      "cpu": "Bionic"
+    }
+  },
+  {
+    "name": "Xiaomi",
+    "description": "some description",
+    "params": {
+      "price": 20,
+      "cpu": "Xiaomi Surge S1"
+    }
+  },
+  {
+    "name": "HUAWEI",
+    "description": "some description",
+    "params": {
+      "price": 22,
+      "cpu": "V9R1 Kirin910"
+    }
+  },
+  {
+    "name": "OnePlus",
+    "description": "some description",
+    "params": {
+      "price": 19,
+      "cpu": "Bionic"
+    }
+  }
+]

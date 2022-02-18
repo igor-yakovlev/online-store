@@ -1,0 +1,12 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "workspaces": ["packages/*"],
+  "scripts": {
+      "start:fe": "yarn workspace frontend start",
+      "start:server": "yarn workspace server start:dev"
+  }
+}

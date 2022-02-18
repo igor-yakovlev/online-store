@@ -1,0 +1,67 @@
+.card {
+background-color: #fff;
+box-shadow: 9px 2px 18px 0px rgba(34, 60, 80, 0.2);
+border-radius: 10px;
+padding: 20px;
+margin: 0 auto;
+margin-top: 20px;
+display: grid;
+gap: 10px;
+grid-template-columns: 200px auto;
+width: 900px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 700;   
+}
+
+
+.img {
+    position: relative;
+    width: 200px;
+    
+}
+
+.img img {
+    object-fit: cover;  
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.info {
+    
+    display: grid;
+    grid-template-areas: 
+    "A A"
+    "B B"
+    "C D";
+    grid-template-rows: auto  auto auto;
+    grid-template-columns: 50%  auto;
+}
+
+.title {
+    grid-area: A;
+    justify-self: stretch;
+}
+
+.description {
+    grid-area: B;
+    justify-self: center;
+}
+
+
+.characteristics {
+    grid-area: C;
+}
+
+.price {
+    grid-area: D    ;
+    justify-self: center;
+    align-self: center;
+    font-size: 48px;
+}

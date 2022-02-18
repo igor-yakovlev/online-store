@@ -1,0 +1,28 @@
+.container {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #5F9EA0;
+    color: white;
+    box-shadow: 9px 2px 18px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+item a {
+
+}
+
+.item:hover {
+    color: black;
+}

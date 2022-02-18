@@ -1,0 +1,13 @@
+.form {
+background-color: #fff;
+box-shadow: 9px 2px 18px 0px rgba(34, 60, 80, 0.2);
+display: flex;
+border-radius: 10px;
+flex-direction: column;
+padding: 20px;
+}
+
+
+.title {
+    font-weight: 700;
+}
